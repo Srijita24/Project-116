@@ -1,0 +1,21 @@
+h2 {
+    font-size: 40px;
+    color: white;
+    text-align: "center" !important;
+}
+
+.btn-info:hover {
+    background-color: deeppink;
+    font-size: 23px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px darkblue;}
+    to{box-shadow: 1px 1px 38px deeppink;}
+}
